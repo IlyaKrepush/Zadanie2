@@ -1,0 +1,33 @@
+.a1:hover{
+    background-color: red;
+}
+
+.a1:visited{
+    color:green;
+}
+
+.a1:active{
+    color:yellow;
+}
+
+.a2:hover{
+    background-color: pink;
+}
+.a2:visited{
+    color:yellow;
+}
+.a2:active{
+    color:green;
+}
+
+
+.a3:hover{
+    background-color: yellow;
+}
+.a3:visited{
+    color:pink;
+}
+.a3:active{
+    color:red;
+}
+

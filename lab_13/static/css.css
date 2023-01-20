@@ -1,0 +1,42 @@
+.vuv {
+    background-color:pink;
+    font-family:cursive;
+    margin-top:10px;
+    margin-left:1rem;
+    margin-right:1rem;
+    border-radius:2px;
+}
+
+body{
+	background-color:#E9967A
+}
+
+.main{
+    background-color:white;
+    width:30rem;
+    height:5rem;
+    margin-top:10rem;
+    border-radius:10px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form{
+    margin-top:10px;
+    margin-left:1rem;
+    margin-right:1rem;
+
+}
+
+.uvu {
+    background-color:#E9967A;
+    font-family:cursive;
+    margin-top:10px;
+    margin-left:1rem;
+    margin-right:1rem;
+    border-radius:2px;
+}

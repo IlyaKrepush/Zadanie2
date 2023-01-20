@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Страница 1</title>
-    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" href="../static/css.css" type="text/css">
 </head>
 <body>
-<a class="a1" href="2.html">Перейти</a>
-
-
+<div class="flex-center">
+<div class="main">
+    <form class="form-horizontal" role="form" method="POST">
+        <input style="margin:3px;" type="text" name="text" placeholder="Paste text">
+        <button type="submit" class="btn btn-success">Enter</button>
+    </form>
+    {% if count>1 %}
+    <div class="vuv">В введённой строке было {{ count }} цифры </div>
+    {% endif %}
+    {% if count==1 %}
+    <div class="uvu">В введённой строке была {{ count }} цифра </div>
+    {% endif %}
+</div>
+</div>
 </body>
 </html>
